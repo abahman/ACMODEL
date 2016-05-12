@@ -1,0 +1,8 @@
+Definition:
+1	//get system type, 0--validate the models of components with measured data,1--short-tube model, 2--TxV model
+0	//1---run actune, 0 don't run actune
+0	//1---with reversed evaporator iteration loop, 0---with normal evaporator iteration loop in the actual refrigerant flow direction
+1	//refrigerant, 0--R22,1---R410A, 2---R410A 
+0	//0---specify the charge, 1---specify the subcooling degree ahead of the expansion device
+1	//expansion device for the iteration without specifying the superheat degree, 1---short-tube, 0---apparent TxV
+-256

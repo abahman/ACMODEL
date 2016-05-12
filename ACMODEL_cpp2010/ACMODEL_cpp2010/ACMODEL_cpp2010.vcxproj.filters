@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WAIR.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACTUNE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIR.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMINE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COMP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compstat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COMPU.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COND.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CONDCIRC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CORR.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DATAELEM.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DATAST.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ERRORLOG.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EVAP.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EVAPCIRC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExerciseComponents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXPDEV.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FANNO.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GETDATA.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LINES.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MAINFUNC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MTIME.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MYBESSEL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NUM2D.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NUM3D.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NUMERIC.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OUTELEM.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PRESSURE.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="R22.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline1d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SUBCOOL.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VOLUME.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WAIR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACTUNE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMINE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COMP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COMPSTAT.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COMPU.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COND.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CORR.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DATAELEM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DATAST.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFINE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DEFS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ERRORLOG.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EVAP.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExerciseComponents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXPDEV.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FANNO.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GETDATA.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LINES.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MAINFUNC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MASS.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MTIME.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MYBESSEL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NUM2D.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NUM3D.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NUMERIC.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OUTELEM.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Parse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PRESSURE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="R22.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="REF.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline1d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUBCOOL.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VOLUME.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

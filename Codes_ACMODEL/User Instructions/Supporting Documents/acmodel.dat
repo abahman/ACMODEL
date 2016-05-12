@@ -1,0 +1,154 @@
+#2 RTU fixed orifice, #2 represent TxV units, #1 represents short-tube units
+#103,1 compressor		101 = physical compressor model, 102 = compressor map model,103= ARI standard 10 terms
++3.400000e+003			motor rpm
++3.890000e+000			displacement volume (in^3)
++6.840000e-001			polytropic efficiency
+-20.8315	   			power coefficients
+12.55865	   
+47.40728	   
+0.243978	   
+-0.28001	   
+-0.29642	   
+0.00398	   
+-0.00498	   
+0.0025	   
+0.00172	 		
+248.1924	   			mass flow rate coeffs.
+4.164754	   
+3.219667	   
+0.01946	   
+0.104263	   
+-0.03135	   
+-4.88E-05	   
+6.66E-04	   
+-5.93E-04	   
+8.39E-05	
++1.000000e+000			adjusting factor for mass flow rate
++1.000000e+000			adjusting factor for power consumption
++1.000000e+000			adjusting factor for polytropic efficiency
+0.005817				compressor inner free volume [m3]
+1.049					compressor oil charge amount [kg]
+50					oil temperature, usually it is the compressor bottom temperature
+1					oil type related to the solubility equation
+-256					right end position
+#201,1 condenser		201 = user defined, 202 = circuited tube pattern, 203 = single finned tube, 
+6.9392800E-03			tube inside diameter (m)
+1.1510000E+00			tube length (m)
+2.9972000E-04			wall thickness of pipe (m), for micro-fin tubes, it doesn't include the fin height and the wall thickness
++2.502000e-002			outside fin diameter (m)
+1.4941180E-03			fin pitch (m), fin space+one fin thickness
+1.1430000E-04			fin thickness (m)
+2.5400000E-02			spacing between tubes in bank (m)
+2.1996400E-02			spacing between tubs in the longitudual direction (m)
++1.000000e+001			number of segments per tube in finite difference model
+1.2700000E-02			radius of return bend (m)
++2.018000e+000			nominal air mass flux (kg/s/m^2), correponding to the maximum air flux
++6.000000e+000			number of parallel branches in main section (circuit pattern model only)
++8.000000e+000			number of tubes in main branch (circuit pattern model only)
++8.000000e+000			number of tubes in subcooling branch (circuit pattern model only)
+2.0					number of row deep
+0.8185				Frontal area [m2]
+0.96					air side convection coefficient
+1.0					refrigerant side two-phase flow convection coefficient
+1.0					refrigerant side subcooling convection coefficient
+1.1					refrigerant side pressure drop coefficient
++1.000000e+000			fouling factor (1.0-no, 0.0-completely)
+1					microfin type, 0=smooth tube, 1=helical, 2=cross-grooved, 3=herringbone
+50					fin number in a micro-fin tube
+35					fin apex angle in a micro-fin tube
+18					fin helix angle in a micro-fin tube
+0.201e-3				fin height in a micro-fin tube
+2.69e-4				base width of a single fin
+1.422e-4				top width of a single fin
+2.69e-4				base distance between two neighboring fins
+3					airside fin type, 1-plain, 2-corrugated, 3-slit, 4-louvered, 5-convex louvered, 6-smooth wavy, 7-spine
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+400.0					tube wall conductance
+233.0					fin conductance
+-256					right end position
+#301,1 evaporator		301=user defined, 302 = circuited tube pattern, 303 = single finned tube 
+6.9189600E-03			inside diameter of pipe (m), with respect to micro-fin tubes, this is the inside diameter at the fin tips
+0.7620000E+00			tube length (m)
+3.1242000E-04			wall thickness of pipe (m), for micro-fin tubes, it doesn't include the fin height and the wall thickness
++2.520000e-002			outside fin diameter (m)
+1.5875000E-03			fin pitch (m), fin space+one fin thickness
+1.1430000E-04			fin thickness (m)			
++2.540000E-002			spacing between tubes in bank (m)
+2.1996400E-02			spacing between tubs in the longitudual direction (m)
++1.000000e+001			number of segments per tube in finite difference model
++1.270000e-002			radius of return bend (m)
++3.524000e+000			nominal air mass flux (kg/s/m^2), correponding to the maximum air flux
++12					Number of equivalent branches
++6					tube number in each evaporator branch
++24					number of rows high
++3.0					number of rows deep
+4.6450000E-01			Frontal area
+0.82					air side convection coefficient (dry coil)
+0.82					refrigerant side convection coefficient
+0.8					refrigerant side pressure drop coefficient
+1.0					air side convestion coefficient (wet coil);
++1.0					fouling factor (1.0-no, 0.0-completely)
+1					microfin type, 0=smooth tube, 1=helical, 2=cross-grooved, 3=herringbone
+50					fin number in a micro-fin tube
+35					fin apex angle in a micro-fin tube
+18					fin helix angle in a micro-fin tube
+0.201e-3				fin height in a micro-fin tube
+2.69e-4				base width of a single fin
+1.422e-4				top width of a single fin
+2.69e-4				base distance between two neighboring fins
+3					airside fin type, 1-plain, 2-corrugated, 3-slit, 4-louvered, 5-convex louvered, 6-smooth wavy, 7-spine
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+400.0					tube wall conductance
+233.0					fin conductance
+-256					right end position
+#401,1 expdev
+6.6040000E-04			inside diameter		
+5.2324000E-03			length
+1.094					adjusting the diameter 
+1.5240000E-04			Chamfered length [m]
+45					Chamfered angle, degree
+12					Number of Paralelled expansion devices
+#401,2 restriction
++8.250000e-003			inside the diameter
++1.200000e-002			length
++1.000000e+000			adjusting the diameter
+0.0					Chamfered length [m]
+0.0					Chamfered angle, degree
+#501,1 SUBCOOLER
+0
+#601,1 LIQUIDLINE
++2.91					length of liquid line
++7.0e-3				inside diameter of the liquid line
++8.5e-3				outside diameter of the liquid line
+0					heat tranfer rate in the liquid line
+36					differential pressure drop across the liquid line, if specified as -1, the pressure drop will be calculated by model
+7.689e-5				additional inner volume connected with the liquid line, usually refered to the outlet header of the condenser
+#701,1 FILTER
++0.0					free inner volume for storing liquid refrigerant
+#801,1 SUCTIONLINE
++1.4				length of liquid line
++17.27e-3				inside diameter of the liquid line
++19.05e-3				outside diameter of the liquid line
+0					heat tranfer rate in the suction line
+0					differential pressure drop across the suction line, if specified as -1, the pressure drop will be calculated by model
+0					Additional volume connected with suction line, usually refered as evaporator header
+#901,1 DISCHARGELINE
++1.11					length of the discharge line
++7.0e-3				inside diameter of the discharge line
++8.5e-3				outside diameter of the discharge line
+0					heat transfer rate in the discharge line
+95					differential pressure drop across the discharge line, if specified as -1, the pressure drop will be calculated by model
+0					additional inner volume connected with the discharge line, usually refered as inlet header of the condenser
+#1001,1 DISTRIBUTLINE
+0					length of the line
+0					inside diameter of the line
+0					outside diameter of the line
+0					differential pressure drop across the distribution line

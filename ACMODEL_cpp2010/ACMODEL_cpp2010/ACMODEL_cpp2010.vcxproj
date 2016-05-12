@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B78B884-0A14-42CF-BD3D-75A0895728EB}</ProjectGuid>
+    <RootNamespace>ACMODEL_cpp2010</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ACModel.cpp" />
+    <ClCompile Include="ACTUNE.CPP" />
+    <ClCompile Include="AIR.CPP" />
+    <ClCompile Include="BuildSystem.cpp" />
+    <ClCompile Include="CMINE.CPP" />
+    <ClCompile Include="COMP.CPP" />
+    <ClCompile Include="Compstat.cpp" />
+    <ClCompile Include="COMPU.CPP" />
+    <ClCompile Include="COND.CPP" />
+    <ClCompile Include="CONDCIRC.CPP" />
+    <ClCompile Include="conversion.cpp" />
+    <ClCompile Include="CORR.CPP" />
+    <ClCompile Include="DATAELEM.CPP" />
+    <ClCompile Include="DATAST.CPP" />
+    <ClCompile Include="ERRORLOG.CPP" />
+    <ClCompile Include="EVAP.CPP" />
+    <ClCompile Include="EVAPCIRC.CPP" />
+    <ClCompile Include="ExerciseComponents.cpp" />
+    <ClCompile Include="EXPDEV.CPP" />
+    <ClCompile Include="FANNO.CPP" />
+    <ClCompile Include="GETDATA.CPP" />
+    <ClCompile Include="LINES.CPP" />
+    <ClCompile Include="MAINFUNC.CPP" />
+    <ClCompile Include="MTIME.CPP" />
+    <ClCompile Include="MYBESSEL.CPP" />
+    <ClCompile Include="NUM2D.CPP" />
+    <ClCompile Include="NUM3D.CPP" />
+    <ClCompile Include="NUMERIC.CPP" />
+    <ClCompile Include="OUTELEM.CPP" />
+    <ClCompile Include="Parse.cpp" />
+    <ClCompile Include="PRESSURE.CPP" />
+    <ClCompile Include="R22.CPP" />
+    <ClCompile Include="Spline.cpp" />
+    <ClCompile Include="Spline1d.cpp" />
+    <ClCompile Include="Spline2d.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="SUBCOOL.CPP" />
+    <ClCompile Include="VOLUME.CPP" />
+    <ClCompile Include="WAIR.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ACTUNE.H" />
+    <ClInclude Include="AIR.H" />
+    <ClInclude Include="CMINE.H" />
+    <ClInclude Include="COMP.H" />
+    <ClInclude Include="COMPSTAT.H" />
+    <ClInclude Include="COMPU.H" />
+    <ClInclude Include="COND.H" />
+    <ClInclude Include="conversion.h" />
+    <ClInclude Include="CORR.H" />
+    <ClInclude Include="DATAELEM.H" />
+    <ClInclude Include="DATAST.H" />
+    <ClInclude Include="DEFINE.H" />
+    <ClInclude Include="DEFS.H" />
+    <ClInclude Include="ERRORLOG.H" />
+    <ClInclude Include="EVAP.H" />
+    <ClInclude Include="ExerciseComponents.h" />
+    <ClInclude Include="EXPDEV.H" />
+    <ClInclude Include="FANNO.H" />
+    <ClInclude Include="GETDATA.H" />
+    <ClInclude Include="LINES.H" />
+    <ClInclude Include="MAINFUNC.H" />
+    <ClInclude Include="MASS.H" />
+    <ClInclude Include="MTIME.H" />
+    <ClInclude Include="MYBESSEL.H" />
+    <ClInclude Include="NUM2D.H" />
+    <ClInclude Include="NUM3D.H" />
+    <ClInclude Include="NUMERIC.H" />
+    <ClInclude Include="OUTELEM.H" />
+    <ClInclude Include="Parse.h" />
+    <ClInclude Include="PRESSURE.H" />
+    <ClInclude Include="R22.H" />
+    <ClInclude Include="REF.H" />
+    <ClInclude Include="Spline.h" />
+    <ClInclude Include="Spline1d.h" />
+    <ClInclude Include="Spline2d.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="SUBCOOL.H" />
+    <ClInclude Include="VOLUME.H" />
+    <ClInclude Include="WAIR.H" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

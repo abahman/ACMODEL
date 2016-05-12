@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ACModel - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ACModel.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Codes_ACMODEL\ACModel.cpp"
+"D:\Codes_ACMODEL\ACTUNE.CPP"
+"D:\Codes_ACMODEL\AIR.CPP"
+"D:\Codes_ACMODEL\BuildSystem.cpp"
+"D:\Codes_ACMODEL\CMINE.CPP"
+"D:\Codes_ACMODEL\COMP.CPP"
+"D:\Codes_ACMODEL\Compstat.cpp"
+"D:\Codes_ACMODEL\COMPU.CPP"
+"D:\Codes_ACMODEL\COND.CPP"
+"D:\Codes_ACMODEL\CONDCIRC.CPP"
+"D:\Codes_ACMODEL\conversion.cpp"
+"D:\Codes_ACMODEL\CORR.CPP"
+"D:\Codes_ACMODEL\DATAELEM.CPP"
+"D:\Codes_ACMODEL\DATAST.CPP"
+"D:\Codes_ACMODEL\ERRORLOG.CPP"
+"D:\Codes_ACMODEL\EVAP.CPP"
+"D:\Codes_ACMODEL\EVAPCIRC.CPP"
+"D:\Codes_ACMODEL\ExerciseComponents.cpp"
+"D:\Codes_ACMODEL\EXPDEV.CPP"
+"D:\Codes_ACMODEL\FANNO.CPP"
+"D:\Codes_ACMODEL\GETDATA.CPP"
+"D:\Codes_ACMODEL\LINES.CPP"
+"D:\Codes_ACMODEL\MAINFUNC.CPP"
+"D:\Codes_ACMODEL\MTIME.CPP"
+"D:\Codes_ACMODEL\MYBESSEL.CPP"
+"D:\Codes_ACMODEL\NUM2D.CPP"
+"D:\Codes_ACMODEL\NUM3D.CPP"
+"D:\Codes_ACMODEL\NUMERIC.CPP"
+"D:\Codes_ACMODEL\OUTELEM.CPP"
+"D:\Codes_ACMODEL\Parse.cpp"
+"D:\Codes_ACMODEL\PRESSURE.CPP"
+"D:\Codes_ACMODEL\R22.CPP"
+"D:\Codes_ACMODEL\Spline.cpp"
+"D:\Codes_ACMODEL\Spline1d.cpp"
+"D:\Codes_ACMODEL\Spline2d.cpp"
+"D:\Codes_ACMODEL\SUBCOOL.CPP"
+"D:\Codes_ACMODEL\VOLUME.CPP"
+"D:\Codes_ACMODEL\WAIR.CPP"
+]
+Creating command line "cl.exe @C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF2.tmp" 
+Creating temporary file "C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ACModel.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Codes_ACMODEL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF3.tmp" 
+Creating temporary file "C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ACModel.pdb" /debug /machine:I386 /out:"Debug/ACModel.exe" /pdbtype:sept 
+.\Debug\ACModel.obj
+.\Debug\ACTUNE.OBJ
+.\Debug\AIR.OBJ
+.\Debug\BuildSystem.obj
+.\Debug\CMINE.OBJ
+.\Debug\COMP.OBJ
+.\Debug\Compstat.obj
+.\Debug\COMPU.OBJ
+.\Debug\COND.OBJ
+.\Debug\CONDCIRC.OBJ
+.\Debug\conversion.obj
+.\Debug\CORR.OBJ
+.\Debug\DATAELEM.OBJ
+.\Debug\DATAST.OBJ
+.\Debug\ERRORLOG.OBJ
+.\Debug\EVAP.OBJ
+.\Debug\EVAPCIRC.OBJ
+.\Debug\ExerciseComponents.obj
+.\Debug\EXPDEV.OBJ
+.\Debug\FANNO.OBJ
+.\Debug\GETDATA.OBJ
+.\Debug\LINES.OBJ
+.\Debug\MAINFUNC.OBJ
+.\Debug\MTIME.OBJ
+.\Debug\MYBESSEL.OBJ
+.\Debug\NUM2D.OBJ
+.\Debug\NUM3D.OBJ
+.\Debug\NUMERIC.OBJ
+.\Debug\OUTELEM.OBJ
+.\Debug\Parse.obj
+.\Debug\PRESSURE.OBJ
+.\Debug\R22.OBJ
+.\Debug\Spline.obj
+.\Debug\Spline1d.obj
+.\Debug\Spline2d.obj
+.\Debug\StdAfx.obj
+.\Debug\SUBCOOL.OBJ
+.\Debug\VOLUME.OBJ
+.\Debug\WAIR.OBJ
+]
+Creating command line "link.exe @C:\DOCUME~1\BOSHEN~1\LOCALS~1\Temp\RSP1DF4.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ACModel.cpp
+ACTUNE.CPP
+AIR.CPP
+BuildSystem.cpp
+CMINE.CPP
+COMP.CPP
+Compstat.cpp
+COMPU.CPP
+COND.CPP
+CONDCIRC.CPP
+conversion.cpp
+CORR.CPP
+DATAELEM.CPP
+DATAST.CPP
+ERRORLOG.CPP
+EVAP.CPP
+EVAPCIRC.CPP
+ExerciseComponents.cpp
+EXPDEV.CPP
+FANNO.CPP
+Generating Code...
+Compiling...
+GETDATA.CPP
+LINES.CPP
+MAINFUNC.CPP
+MTIME.CPP
+MYBESSEL.CPP
+NUM2D.CPP
+NUM3D.CPP
+NUMERIC.CPP
+OUTELEM.CPP
+Parse.cpp
+PRESSURE.CPP
+R22.CPP
+Spline.cpp
+Spline1d.cpp
+Spline2d.cpp
+SUBCOOL.CPP
+VOLUME.CPP
+WAIR.CPP
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ACModel.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

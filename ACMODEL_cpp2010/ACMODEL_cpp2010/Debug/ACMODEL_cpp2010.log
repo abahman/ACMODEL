@@ -1,0 +1,105 @@
+﻿Build started 5/15/2011 9:52:44 PM.
+     1>Project "D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\ACMODEL_cpp2010\ACMODEL_cpp2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ACMODEL_cpp2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ACTUNE.CPP
+         ACTUNE.CPP
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(98): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(150): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(164): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(223): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(345): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(364): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(386): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(405): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(470): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(603): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(692): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(765): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(796): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(828): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(890): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(907): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(1093): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(1146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(1370): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\boshen_simulation data\acmodel codes and simulations\unitary air conditioner units\3-ton r-410a split with fixed_orifice\codes\acmodel_cpp2010\acmodel_cpp2010\actune.cpp(1484): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ACMODEL_cpp2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.lib" /MACHINE:X86 Debug\ACModel.obj
+         Debug\ACTUNE.obj
+         Debug\AIR.obj
+         Debug\BuildSystem.obj
+         Debug\CMINE.obj
+         Debug\COMP.obj
+         Debug\Compstat.obj
+         Debug\COMPU.obj
+         Debug\COND.obj
+         Debug\CONDCIRC.obj
+         Debug\conversion.obj
+         Debug\CORR.obj
+         Debug\DATAELEM.obj
+         Debug\DATAST.obj
+         Debug\ERRORLOG.obj
+         Debug\EVAP.obj
+         Debug\EVAPCIRC.obj
+         Debug\ExerciseComponents.obj
+         Debug\EXPDEV.obj
+         Debug\FANNO.obj
+         Debug\GETDATA.obj
+         Debug\LINES.obj
+         Debug\MAINFUNC.obj
+         Debug\MTIME.obj
+         Debug\MYBESSEL.obj
+         Debug\NUM2D.obj
+         Debug\NUM3D.obj
+         Debug\NUMERIC.obj
+         Debug\OUTELEM.obj
+         Debug\Parse.obj
+         Debug\PRESSURE.obj
+         Debug\R22.obj
+         Debug\Spline.obj
+         Debug\Spline1d.obj
+         Debug\Spline2d.obj
+         Debug\StdAfx.obj
+         Debug\SUBCOOL.obj
+         Debug\VOLUME.obj
+         Debug\WAIR.obj
+         LINK : D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.exe not found or not built by the last incremental link; performing full link
+         ACMODEL_cpp2010.vcxproj -> D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\Debug\ACMODEL_cpp2010.exe;#1" /manifest Debug\ACMODEL_cpp2010.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ACMODEL_cpp2010.unsuccessfulbuild".
+         Touching "Debug\ACMODEL_cpp2010.lastbuildstate".
+     1>Done Building Project "D:\BoShen_Simulation Data\ACMODEL Codes and Simulations\Unitary Air Conditioner Units\3-ton R-410A Split With Fixed_Orifice\Codes\ACMODEL_cpp2010\ACMODEL_cpp2010\ACMODEL_cpp2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.04

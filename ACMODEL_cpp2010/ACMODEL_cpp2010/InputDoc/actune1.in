@@ -1,0 +1,12 @@
+1       0/1 - enables auto fitting of model parameters
+
+32.38   condenser inlet air temperature (C)
+4.78 condenser air mass flux (kg/m^2/s)
+25    evaporator inlet air drybulb temperature (C)
+0.52   evaporator inlet air relative humidity (NU)
+1.5 evaporator air mass flux (kg/m^2/s)
+
+1874    head pressure (kPa)
+700     suction pressure (kPa)
+0.5	 superheat (C)
+3.472    subcooling (C)

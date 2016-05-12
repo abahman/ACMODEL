@@ -1,0 +1,24 @@
+1	432396	397.83	1751.07																	   
+4	1	27	35	0.5	3500	1.0	5	5	5	50	1	1	   
+
+
+// 1: row contains initial guesses, compressor suction enthalpy(J/kg), compressor suction pressure(kPa), compressor discharge pressure(kPa).
+
+//4: row contains operating condition, reserved digit, condenser inlet air temperature(C), evaporator inlet air temperature(C), indoor inlet air relative humidity, condenser air flow rate (scfm), evaporator air flow rate(kg/s), system charge inventory(kg), compressor suction superheat(K), subcooling at condenser exit or ahead of expansion device(K), compressor bottom/lubricant temperature(C), reserved digit, reserved digit
+
+1		425921		592.97		2111.111																	   
+4	1	27.9		26.8		0.508		3470		1.101			2.57		12.8		10.3		50		1		1	   
+1		434657		380.0524		1680.725																	   
+4	1	27.7		26.9		0.501		3470		1.0948		1.65		30.7		-0.03		50		1		1	   
+1		432396		397.83		1751.07																	   
+4	1	27.7		26.6		0.507		3470		1.1023		1.93		23.6		1.2		50		1		1	   
+1		429509		548.842		1977.624																	   
+4	1	27.9		26.9		0.505		3470		1.0998		2.32		18.0		7.0		50		1		1	   
+1		425921		592.97		2111.111																	   
+4	1	27.9		26.8		0.508		3470		1.101			2.57		12.8		10.3		50		1		1	   
+1		420738		617.1715		2196.333																	   
+4	1	27.9		26.7		0.505		3470		1.0913		2.82		6.7		12.1		50		1		1	   
+1		415350		629.9272		2273.35																	   
+4	1	27.9		26.9		0.506		3470		1.092			3.03		1.1		13.9		50		1		1	   
+1		411965		636.0638		2385.946																	   
+4	1	27.6		27.0		0.495		3470		1.0943		3.34		0.0		15.7		50		1		1	 

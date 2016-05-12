@@ -1,0 +1,43 @@
+Outdoor struct information
+3				//node number
+3				//branch number
+1				//row number
+24				//tube number
+10				//Segment number of per tube
+1.375				//frontal area [m^2]
+1.603				//air flow rate [m^3/s]
+the followings are node information
+0	1	2	-1	0	1
+1	2	1	0	1	2
+2	1	1	2	-1
+the following are branch information
+0	-1	1	8	0	1	2	3	4	5	6	7
+1	0	1	8	8	9	10	11	12	13	14	15
+2	-1	1	8	16	17	18	19	20	21	22	23
+the following are tube information
+#No	#Row	#Ref	#up	#down	#GaF	#even
+0	0	-1	-1	-1	1	0
+1	0	0	-1	-1	1	1	
+2	0	1	-1	-1	1	0
+3	0	2	-1	-1	1	1
+4	0	3	-1	-1	1	0
+5	0	4	-1	-1	1	1
+6	0	5	-1	-1	1	0
+7	0	6	-1	-1	1	1
+8	0	-1	-1	-1	1	0
+9	0	8	-1	-1	1	1
+10	0	9	-1	-1	1	0
+11	0	10	-1	-1	1	1
+12	0	11	-1	-1	1	0
+13	0	12	-1	-1	1	1
+14	0	13	-1	-1	1	0
+15	0	14	-1	-1	1	1
+16	0	-1	-1	-1	1	0
+17	0	16	-1	-1	1	1
+18	0	17	-1	-1	1	0
+19	0	18	-1	-1	1	1
+20	0	19	-1	-1	1	0
+21	0	20	-1	-1	1	1
+22	0	21	-1	-1	1	0
+23	0	22	-1	-1	1	1
+-256

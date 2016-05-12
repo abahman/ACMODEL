@@ -1,0 +1,144 @@
+#2 RTU fixed orifice, #2 represent TxV units, #1 represents short-tube units
+#103,1 compressor		101 = physical compressor model, 102 = compressor map model,103= ARI standard 10 terms
++3.400000e+003			motor rpm
++3.890000e+000			displacement volume (in^3)
++6.840000e-001			polytropic efficiency
+20336.658203125			power coefficients
+-152.834777832031
+-482.620941162109
+1.93804860115051
+1.42256081104279
+4.25163698196411
+2.85739842802286E-02
+-4.31428477168083E-02
+8.08901805430651E-03
+-1.31955305114388E-02
+512.092529296875			mass flow rate coeffs.
+7.50519132614136
+-8.11827564239502
+4.35973629355431E-02
+-0.016839861869812
+6.42947629094124E-02
+2.66248331172392E-04
+-5.4332962463377E-05
+1.54624540300574E-05
+-2.02761541004293E-04
+1					adjusting factor for mass flow rate
++1.02					adjusting factor for power consumption
++1.000000e+000			adjusting factor for polytropic efficiency
+0.005817				compressor inner free volume [m3]
+1.049					compressor oil charge amount [kg]
+50					oil temperature, usually it is the compressor top temperature
+1					oil type related to the solubility equation
+-256					right end position
+#201,1 condenser		201 = user defined, 202 = circuited tube pattern, 203 = single finned tube, 
++8.490000e-003			tube inside diameter (m)
++2.255000e+000			tube length (m)
++3.200000e-004			wall thickness of pipe (m), for micro-fin tubes, it doesn't include the fin height and the wall thickness
++2.870000e-002			outside fin diameter (m)
++1.016000e-003			fin pitch (m), fin space+one fin thickness
++1.016000e-004			fin thickness (m)
++2.540000e-002			spacing between tubes in bank (m)
++1.905000e-002			spacing between tubs in the longitudual direction (m)
++1.000000e+001			number of segments per tube in finite difference model
++1.270000e-002			radius of return bend (m)
++2.018000e+000			nominal air mass flux (kg/s/m^2), correponding to the maximum air flux
++2.000000e+000			number of parallel branches in main section (circuit pattern model only)
++8.000000e+000			number of tubes in main branch (circuit pattern model only)
++8.000000e+000			number of tubes in subcooling branch (circuit pattern model only)
+1					number of high rows
+1.375					Frontal area [m2]
+1.4					air side convection coefficient, for the first series test forTxV it is 1.0, since some unaccounted operation deviation
+1.0					refrigerant side two-phase flow convection coefficient
+1.0					refrigerant side subcooling convection coefficient
++1.000000e+000			refrigerant side pressure drop coefficient
++1.000000e+000			fouling factor (1.0-no, 0.0-completely)
+2					microfin type, 0=smooth tube, 1=helical, 2=cross-grooved, 3=herringbone
+42					fin number in a micro-fin tube
+20					fin apex angle in a micro-fin tube
+20					fin helix angle in a micro-fin tube
+0.2e-3				fin height in a micro-fin tube
+1.6e-4				base width of a single fin
+9e-5					top width of a single fin
+5e-4					base distance between two neighboring fins
+3					airside fin type, 1-plain, 2-corrugated, 3-slit, 4-louvered, 5-convex louvered, 6-smooth wavy, 7-spine
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+400.0					tube wall conductance
+233.0					fin conductance
+-256					right end position
+#301,1 evaporator		301=user defined, 302 = circuited tube pattern, 303 = single finned tube 
++8.490000e-003			inside diameter of pipe (m), with respect to micro-fin tubes, this is the inside diameter at the fin tips
++4.520000e-001			tube length (m)
++3.200000e-004			wall thickness of pipe (m), for micro-fin tubes, it doesn't include the fin height and the wall thickness
++2.150000e-002			outside fin diameter (m)
++1.752000e-003			fin pitch (m), fin space+one fin thickness
++1.016000e-004			fin thickness (m)			
++2.540000e-002			spacing between tubes in bank (m)
++1.905000e-002			spacing between tubs in the longitudual direction (m)
++1.000000e+001			number of segments per tube in finite difference model
++1.270000e-002			radius of return bend (m)
++3.524000e+000			nominal air mass flux (kg/s/m^2), correponding to the maximum air flux
++5					Number of equivalent branches
++16					tube number in each evaporator branch
++28.00000e+000			number of rows high
++3.000000e+000			number of rows deep
+0.3215				Frontal area
+0.805					air side convection coefficient (dry coil)
+1.0					refrigerant side convection coefficient
+1.0					refrigerant side pressure drop coefficient
+1.0					air side convestion coefficient (wet coil);
++1.000000e+000			fouling factor (1.0-no, 0.0-completely)
+2					microfin type, 0=smooth tube, 1=helical, 2=cross-grooved, 3=herringbone
+42					fin number in a micro-fin tube
+20					fin apex angle in a micro-fin tube
+20					fin helix angle in a micro-fin tube
+0.2e-3				fin height in a micro-fin tube
+1.6e-4				base width of a single fin
+9e-5					top width of a single fin
+5e-4					base distance between two neighboring fins
+3					airside fin type, 1-plain, 2-corrugated, 3-slit, 4-louvered, 5-convex louvered, 6-smooth wavy, 7-spine
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+0.0					substructure of fin surface
+400.0					tube wall conductance
+233.0					fin conductance
+-256					right end position
+#401,1 expdev
++17.7800e-004			inside diameter		
++1.270000e-002			length
+1.0002				adjusting the diameter 
+0.0					Chamfered length [m]
+0.0					Chamfered length, degree
+1.0					Number of Parallel fixed orifices
+#401,2 restriction
++8.250000e-003			inside the diameter
++1.200000e-002			length
++1.000000e+000			adjusting the diameter
+0.0					Chamfered length [m]
+0.0					Chamfered angle, degree
+#501,1 SUBCOOLER
+0
+#601,1 LIQUIDLINE
++0.4318				length of liquid line
++8.11e-3				inside diameter of the liquid line
++9.525e-3				outside diameter of the liquid line
+#701,1 FILTER
++101.6e-3				Length
++63.5e-3				Outside diameter
++0.7					percentage of free volume in the filter drier
+#801,1 SUCTIONLINE
++0.5715				length of liquid line
++17.27e-3				inside diameter of the liquid line
++19.05e-3				outside diameter of the liquid line
+#901,1 DISCHARGELINE
++1.179				length of the discharge line
++11.28e-3				inside diameter of the discharge line
++12.7e-3				outside diameter of the discharge line
+#1001,1 DISTRIBUTLINE
+
